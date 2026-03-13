@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
 <meta charset="UTF-8">
 <title>Blog de Cristopher</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
+
+<!-- LOGIN -->
 
 <div id="login" class="login-screen">
 
@@ -14,19 +19,31 @@
 
 <h2>Acceso privado</h2>
 
-<p>Ingrese la contraseña</p>
+<p>La fecha de nosotros.</p>
 
-<input type="password" id="password">
+<input type="password" id="password" placeholder="Ej: 07/06/25">
+
+<p style="font-size:13px;color:#9ca3af;margin-top:8px;">
+Formato: DD/MM/AA (año de 2 dígitos)
+</p>
 
 <button onclick="checkPassword()">Entrar</button>
 
+<p id="error" class="error">
+Fecha incorrecta
+</p>
+
 </div>
 
 </div>
+
+<!-- NAV -->
 
 <nav>
 <h1>Blog de Cristopher</h1>
 </nav>
+
+<!-- CONTENIDO -->
 
 <div class="container">
 

@@ -15,7 +15,7 @@ background:linear-gradient(135deg,#0f172a,#020617);
 color:var(--text);
 }
 
-/* NAVBAR */
+/* NAV */
 
 nav{
 background:#020617;
@@ -67,7 +67,7 @@ line-height:1.7;
 color:var(--muted);
 }
 
-/* CAJA DE NOTA */
+/* NOTA */
 
 .note{
 background:#020617;
@@ -120,6 +120,7 @@ padding:10px;
 margin-top:15px;
 border-radius:6px;
 border:none;
+outline:none;
 }
 
 .login-box button{
@@ -129,4 +130,11 @@ border:none;
 background:var(--accent);
 border-radius:6px;
 cursor:pointer;
+}
+
+.error{
+margin-top:12px;
+color:#f87171;
+font-size:14px;
+display:none;
 }
