@@ -4,19 +4,25 @@
 <meta charset="UTF-8">
 <title>Blog de Cristopher</title>
 <link rel="stylesheet" href="style.css">
-
-<script>
-let password = "07-06-2025";
-let user = prompt("Ingrese la contraseña para entrar:");
-
-if(user !== password){
-    document.write("Acceso denegado");
-}
-</script>
-
 </head>
 
 <body>
+
+<div id="login" class="login-screen">
+
+<div class="login-box">
+
+<h2>Acceso privado</h2>
+
+<p>Ingrese la contraseña</p>
+
+<input type="password" id="password">
+
+<button onclick="checkPassword()">Entrar</button>
+
+</div>
+
+</div>
 
 <nav>
 <h1>Blog de Cristopher</h1>
@@ -27,25 +33,27 @@ if(user !== password){
 <div class="card">
 <a href="bloc1.html">
 <h2>💻 Bloc 1</h2>
-<p>Notas sobre programación.</p>
+<p>Notas sobre programación</p>
 </a>
 </div>
 
 <div class="card">
 <a href="bloc2.html">
 <h2>📚 Bloc 2</h2>
-<p>Cosas que voy aprendiendo.</p>
+<p>Cosas que voy aprendiendo</p>
 </a>
 </div>
 
 <div class="card">
 <a href="bloc3.html">
 <h2>🧠 Bloc 3</h2>
-<p>Pensamientos personales.</p>
+<p>Pensamientos personales</p>
 </a>
 </div>
 
 </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
